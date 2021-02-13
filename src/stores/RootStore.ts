@@ -7,6 +7,8 @@ import * as stores from '.';
 export class RootStore {
   public routerStore = new stores.RouterStore();
 
+  public authStore = new stores.AuthStore(this);
+
   public history = syncHistoryWithStore(
     History.createBrowserHistory(),
     this.routerStore,
