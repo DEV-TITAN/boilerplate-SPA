@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 function ContactSection() {
@@ -46,6 +44,7 @@ function ContactSection() {
         <div className="row" data-aos="fade-up" data-aos-delay="100">
           <div className="col-lg-6 ">
             <iframe
+              title="map"
               className="mb-4 mb-lg-0"
               src="https://maps.google.com/maps?q=escola%20polit%C3%A9cnica%20da%20ufba&t=&z=17&ie=UTF8&iwloc=&output=embed"
               frameBorder={0}

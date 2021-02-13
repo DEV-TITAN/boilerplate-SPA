@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import client1 from '../assets/clients/client-1.png';
 import client2 from '../assets/clients/client-2.png';

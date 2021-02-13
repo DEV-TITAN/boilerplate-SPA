@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import testimonials1 from '../assets/testimonials/testimonials-1.jpg';
 import testimonials2 from '../assets/testimonials/testimonials-2.jpg';
