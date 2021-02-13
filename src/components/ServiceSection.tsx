@@ -65,7 +65,7 @@ function ServiceSection() {
                 <i className="bx bx-tachometer" />
               </div>
               <h4>
-                <a href="">Magni Dolores</a>
+                <a href="">Magnin Dolores</a>
               </h4>
               <p>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
