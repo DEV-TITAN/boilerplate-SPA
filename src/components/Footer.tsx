@@ -1,0 +1,136 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+
+function Footer() {
+  return (
+    <footer id="footer">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 footer-contact">
+              <h3>
+                Template
+                <span>.</span>
+              </h3>
+              <p>
+                Politécnica UFBA - 8° andar - Sala 8.3.5
+                <br />
+                Salvador - BA
+                <br />
+                Brasil
+                <br />
+                <br />
+                <strong>Telefone:</strong>
+                &nbsp;+55 71 9XXXX-XXXX
+                <br />
+                <strong>Email:</strong>
+                &nbsp;info@example.com
+                <br />
+              </p>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">About us</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Web Design</a>
+                </li>
+
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Web Development</a>
+                </li>
+
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Product Management</a>
+                </li>
+
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Marketing</a>
+                </li>
+
+                <li>
+                  <i className="bx bx-chevron-right" />
+                  <a href="#">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p>
+                Cras fermentum odio eu feugiat lide par naso tierra videa magna
+                derita valies
+              </p>
+              <div className="social-links mt-3">
+                <a href="#" className="twitter">
+                  <i className="bx bxl-twitter" />
+                </a>
+                <a href="#" className="facebook">
+                  <i className="bx bxl-facebook" />
+                </a>
+                <a href="#" className="instagram">
+                  <i className="bx bxl-instagram" />
+                </a>
+                <a href="#" className="google-plus">
+                  <i className="bx bxl-skype" />
+                </a>
+                <a href="#" className="linkedin">
+                  <i className="bx bxl-linkedin" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <div className="container py-6">
+          <div className="copyright">
+            &copy; Copyright&nbsp;
+            <strong>
+              <span>Template</span>
+            </strong>
+            . Todos os direitos Reservados
+          </div>
+          <div className="credits">
+            Desenvolvido pela&nbsp;
+            <a href="https://titanci.com.br/" target="_blank" rel="noreferrer">
+              TITAN
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
