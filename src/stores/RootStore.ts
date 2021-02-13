@@ -5,13 +5,13 @@ import { createContext, useContext } from 'react';
 import * as stores from '.';
 
 export class RootStore {
-  public routerStore = new stores.RouterStore();
-
   public authStore = new stores.AuthStore(this);
+
+  public routeStore = new stores.RouterStore();
 
   public history = syncHistoryWithStore(
     History.createBrowserHistory(),
-    this.routerStore,
+    this.routeStore,
   );
 }
 
